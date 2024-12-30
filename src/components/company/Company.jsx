@@ -1,7 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './company.css'
-import Department from '../departments/department'
+import Department from '../departments/Department.jsx'
 
 const Company = (props) => {
   const {companyName="Unknown Company",details="Unknown Details",department,onCompanyselct} = props
